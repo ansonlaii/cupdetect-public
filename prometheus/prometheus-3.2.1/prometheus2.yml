@@ -1,0 +1,16 @@
+global:
+  scrape_interval: 10s 
+  evaluation_interval: 15s
+remote_write:
+  - url: https://prometheus-prod-32-prod-ca-east-0.grafana.net/api/prom/push
+    basic_auth:
+      username: 2363061
+      password: glc_eyJvIjoiMTM5NDY0MyIsIm4iOiJzdGFjay0xMjE5NDExLWFsbG95LXN5ZGUtZGVwbG95bWVudCIsImsiOiJaeVczOTI1TjkxSzVkUjJ0WDhZWWpsN1EiLCJtIjp7InIiOiJwcm9kLWNhLWVhc3QtMCJ9fQ==
+scrape_configs:
+  - job_name: 'model_metrics'
+    static_configs:
+      - targets: ['localhost:8000']
+    metrics_path: '/prometheus-metrics'
+    scrape_interval: 10s
+rule_files:
+  - 'recording_rules.yml'
