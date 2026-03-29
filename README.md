@@ -25,4 +25,4 @@ This project uses the **VN Trash Classification Dataset** provided by **The Cong
 
 You can find more information and access the dataset at [this link](https://www.kaggle.com/datasets/mrgetshjtdone/vn-trash-classification)
 
-The kaggle dataset and yolo datasets in roboflow is used for training a YOLO model in this project. The views and results presented in this project do not necessarily reflect the views of the dataset author. The data will not be used for research purposes and the task of this project is not necessarily related to the author's work.
+The kaggle dataset and yolo datasets in roboflow is used for training a YOLO model in this project. The data will not be used for research purposes and the task of this project is not necessarily related to the author's work.
