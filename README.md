@@ -1,4 +1,4 @@
-# timdetect
+# Project Description
 
 This project trains a computer vision model (YOLOv11) to detect Tim Hortons paper cups and other cups in images. 
 
